@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "2c900f70-4423-496f-a750-c57eea195aeb",
+            "Value": {
+                "id": "ea68e363-c2de-4cb3-b910-67e066923f97",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47b2af43-23ba-441f-8c74-928c74a3608f",
             "Value": {
                 "id": "3bcb9836-970b-415a-8508-4509f8e92346",
@@ -68,6 +76,14 @@
                 "id": "3ffdc519-7efa-4733-9cbc-ab6ab0dd3e18",
                 "resourcePath": "views\\5d073035-9b77-4452-a9ef-d56514e5dc22.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62c47b85-fd2c-4daf-bcff-f23c7f12714e",
+            "Value": {
+                "id": "a0100121-1f8d-4121-886e-df20301c555a",
+                "resourcePath": "fonts\\fnt_roboto\\fnt_roboto.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -178,7 +194,7 @@
             "Key": "e4871e5b-7a60-45d6-b918-6b92a45c8aae",
             "Value": {
                 "id": "4dc6300f-4153-4026-80a5-6ca6afb532bc",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
             }
         },
