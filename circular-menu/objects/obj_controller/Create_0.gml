@@ -1,5 +1,7 @@
+// Randomize for procedurally generated sprites
 randomize();
 
+// Debug mode
 debug = false;
 
 menu_items = ds_list_create();
@@ -30,8 +32,8 @@ map[? "sprite"] = noone; // Replace with actual sprite
 ds_list_add(menu_items, map);
 
 // Menu animation variables
-anim = 0;
-anim_n = 0;
+menu_selection = 0;
+menu_selection_n = 0;
 menu_len = 200;
 menu_dir = 25;
 start_x = display_get_gui_width() * 0.25;
