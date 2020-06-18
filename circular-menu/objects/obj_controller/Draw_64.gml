@@ -42,8 +42,5 @@ for(var i = 0; i < ds_list_size(menu_items); i++) {
 }
 
 draw_set_color(c_white);
-debug_text = "Created by @frymangames\n";
-debug_text += "Press up/down keys to navigate the menu.\n";
-draw_set_font(fnt_roboto);
-draw_text(10, 10, debug_text);
-draw_set_font(-1);
+draw_text(10, 10, tooltip_text);
+draw_set_color(c_black);

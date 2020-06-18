@@ -1,10 +1,3 @@
-// Toggle debug mode
-if keyboard_check(vk_control) {
-	if keyboard_check_pressed(ord("D")) {
-		debug = !debug;
-	}
-}
-
 // Navigating menu
 menu_selection += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
 menu_selection = clamp(menu_selection, 0, ds_list_size(menu_items) - 1);
