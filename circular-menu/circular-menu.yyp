@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "62c47b85-fd2c-4daf-bcff-f23c7f12714e",
-            "Value": {
-                "id": "a0100121-1f8d-4121-886e-df20301c555a",
-                "resourcePath": "fonts\\fnt_roboto\\fnt_roboto.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "8003f8e6-08c3-45b2-b871-d7dad35e89ce",
             "Value": {
                 "id": "bf5d0632-26f8-4faa-b3c9-1bd4494945c2",
