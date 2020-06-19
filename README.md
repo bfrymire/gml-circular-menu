@@ -1,6 +1,6 @@
 # circular-menu
 
-A circular menu that can be used in your game's menus that can easily be expanded upon.
+A circular menu that's easily expanded upon that can be used in your games.
 
 ## Screenshot
 
