@@ -5,32 +5,32 @@ tooltip_text = "Circular menu example\n";
 tooltip_text += "github.com/bfrymire/circular-menu\n";
 tooltip_text += "Press up/down keys to navigate the menu.";
 
-menu_items = ds_list_create();
+menu_items = [];
 // Weapons
-var map = ds_map_create();
-map[? "text"] = "Weapons";
-map[? "sprite"] = noone; // Replace with actual sprite
-ds_list_add(menu_items, map);
+var menu_item = ds_map_create();
+menu_item[? "text"] = "Weapons";
+menu_item[? "sprite"] = noone; // Replace with actual sprite
+menu_items[0] = menu_item;
 // Potions
-var map = ds_map_create();
-map[? "text"] = "Potions";
-map[? "sprite"] = noone; // Replace with actual sprite
-ds_list_add(menu_items, map);
+menu_item = ds_map_create();
+menu_item[? "text"] = "Potions";
+menu_item[? "sprite"] = noone; // Replace with actual sprite
+menu_items[1] = menu_item;
 // Items
-var map = ds_map_create();
-map[? "text"] = "Items";
-map[? "sprite"] = noone; // Replace with actual sprite
-ds_list_add(menu_items, map);
+menu_item = ds_map_create();
+menu_item[? "text"] = "Items";
+menu_item[? "sprite"] = noone; // Replace with actual sprite
+menu_items[2] = menu_item;
 // Crafting
-var map = ds_map_create();
-map[? "text"] = "Crafting";
-map[? "sprite"] = noone; // Replace with actual sprite
-ds_list_add(menu_items, map);
+menu_item = ds_map_create();
+menu_item[? "text"] = "Crafting";
+menu_item[? "sprite"] = noone; // Replace with actual sprite
+menu_items[3] = menu_item;
 // Smithing
-var map = ds_map_create();
-map[? "text"] = "Smithing";
-map[? "sprite"] = noone; // Replace with actual sprite
-ds_list_add(menu_items, map);
+menu_item = ds_map_create();
+menu_item[? "text"] = "Smithing";
+menu_item[? "sprite"] = noone; // Replace with actual sprite
+menu_items[4] = menu_item;
 
 // Menu animation variables
 menu_selection = 0;

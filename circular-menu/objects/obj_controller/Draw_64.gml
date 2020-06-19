@@ -1,6 +1,7 @@
 // Iterate through all menu items
-for(var i = 0; i < ds_list_size(menu_items); i++) {
-    var map = menu_items[| i];
+var menu_items_len = array_length_1d(menu_items);
+for(var i = 0; i < menu_items_len; i++) {
+    var map = menu_items[i];
     
     // Procedurally generating sprites
 	if !sprite_exists(map[? "sprite"]) {
